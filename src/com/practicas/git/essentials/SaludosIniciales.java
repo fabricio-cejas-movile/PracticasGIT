@@ -16,6 +16,10 @@ public class SaludosIniciales {
 	public static void main(String[] args) {
 		
 		System.out.println(SALUDO_INICIAL);
+		
+		for (int i = 0; i < 23; i++){
+			System.out.println("numero: " + i);
+		}
 
 	}
 
