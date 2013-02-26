@@ -3,6 +3,9 @@
  */
 package com.practicas.git.essentials;
 
+import java.util.Random;
+
+
 /**
  * @author Rodrigo
  *
@@ -17,10 +20,10 @@ public class SaludosIniciales {
 		
 		System.out.println(SALUDO_INICIAL);
 		
-		for (int i = 0; i < 23; i++){
-			System.out.println("numero: " + i);
+		Random r = new Random();
+		for (int i = 0; i < 20; i++){
+			System.out.println(r.nextInt());
 		}
-
 	}
 
 }
